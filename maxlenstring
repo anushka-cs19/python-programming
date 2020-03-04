@@ -1,0 +1,9 @@
+a=input("enter first string")
+b=input("enter second string")
+c=input("enter third string")
+if len(a)>len(b) and len(a)>len(c):
+    print(a,"has maximum length")
+elif len(b)>len(c):
+    print(b,"has maximum length")
+else:
+    print(c,"has maximum length")
